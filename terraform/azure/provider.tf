@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-vmtf"
-    storage_account_name = "vmtfkb001"
+    resource_group_name  = "rg-mcloud"
+    storage_account_name = "edmario03"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
